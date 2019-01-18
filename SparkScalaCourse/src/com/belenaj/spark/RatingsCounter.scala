@@ -1,4 +1,4 @@
-package com.belenaj.ratingscounter
+package com.belenaj.spark
 
 import org.apache.spark._
 import org.apache.log4j._
