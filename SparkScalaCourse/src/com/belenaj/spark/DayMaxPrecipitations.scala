@@ -33,6 +33,13 @@ object DayMaxPrecipitations {
     
     // Filter out all but PRCP entries
     val prcp = parsedLines.filter(x => x._3 == "PRCP")
+
+    for (result <- prcp.collect().sorted) {
+      val station = result._1
+      val day = result._2
+      val num = result._4
+      println(s"$station $day $num")
+    }
     
     // Convert to (stationID, day, number_prcp)
     val stationDayPrcp = prcp.map(x => ((x._1 , x._2), x._4.toFloat))
@@ -46,7 +53,7 @@ object DayMaxPrecipitations {
        val station = result._1
        val temp = result._2
        val formattedTemp = f"$temp%.2f F"
-       println(s"$station minimum temperature: $formattedTemp") 
+     //  println(s"$station minimum temperature: $formattedTemp")
     }
       
   }
