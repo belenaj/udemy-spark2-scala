@@ -3,11 +3,11 @@
 ## Getting the required software (MAC Environment)
 
 ### IDE
-a) Intellij Community Edition https://www.jetbrains.com/idea/download/#section=mac
-b) Eclipse Scala http://scala-ide.org/download/sdk.html 
+* Intellij Community Edition https://www.jetbrains.com/idea/download/#section=mac
+* Eclipse Scala http://scala-ide.org/download/sdk.html 
 
 ### Scala
-    a2) Add Scala Plugin to Intellij  https://stackoverflow.com/questions/38973049/how-to-install-scala-plugin-for-intellij
+* Add Scala Plugin to Intellij  https://stackoverflow.com/questions/38973049/how-to-install-scala-plugin-for-intellij
 
 ### JDK 8 u192
 https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
@@ -32,13 +32,13 @@ the command line, you need to install spark IN the system (spark-shell command)
 ### Environment Set ups
 In the end, it doesn't matter how you configure your project.
 
-A) Intellij with integrated Scala and Spark 
-  A1) Download & Install Intellij
-  A2) Download & Install Java 8
-  A3) Open Intellij and Install Scala Plugin
-  A4) Create SBT projects. SBT will take care of dependencies and will download desired libraries
-https://es.hortonworks.com/tutorial/setting-up-a-spark-development-environment-with-scala/
-https://stackoverflow.com/questions/47697141/intellij-cannot-import-sbt-project
+A) Intellij with integrated Scala and Spark   
+  1. Download & Install Intellij
+  2. Download & Install Java 8
+  3. Open Intellij and Install Scala Plugin
+  4. Create SBT projects. SBT will take care of dependencies and will download desired libraries
+     - https://es.hortonworks.com/tutorial/setting-up-a-spark-development-environment-with-scala/
+     - https://stackoverflow.com/questions/47697141/intellij-cannot-import-sbt-project
 
 
 B) Intellij with integrated Scala and separated Spark folder
